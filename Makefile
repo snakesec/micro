@@ -1,6 +1,6 @@
 .PHONY: runtime build generate build-quick
 
-VERSION = "2.0.15-dev.191"
+VERSION = 2.0.15-dev.230
 HASH = $(shell git rev-parse --short HEAD)
 DATE = $(shell GOOS=$(shell go env GOHOSTOS) GOARCH=$(shell go env GOHOSTARCH) \
 	go run tools/build-date.go)
