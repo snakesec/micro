@@ -21,6 +21,3 @@ else
   # houston we have a problem
   exit 1
 fi
-
-chown -R andrax:andrax /opt/ANDRAX/bin
-chmod -R 755 /opt/ANDRAX/bin
