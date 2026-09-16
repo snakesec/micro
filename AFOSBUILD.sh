@@ -2,9 +2,9 @@
 strip micro
 
 if [ $(uname -m | grep 'x86_64') ]; then
-  cp -Rf micro-x86_64 /opt/ANDRAX/bin/
+  cp -Rf micro-x86_64 /opt/ANDRAX/bin/micro
 else
-  cp -Rf micro-aarch64 /opt/ANDRAX/bin/
+  cp -Rf micro-aarch64 /opt/ANDRAX/bin/micro
 fi
 
 if [ $? -eq 0 ]
