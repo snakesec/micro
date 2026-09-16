@@ -30,7 +30,7 @@ else
   apt install --no-install-recommends -y man-db
 fi
 
-cp micro.1 /usr/local/share/man/man1/
+cp micro.1 /usr/share/man/man1/
 
 if [ $? -eq 0 ]
 then
